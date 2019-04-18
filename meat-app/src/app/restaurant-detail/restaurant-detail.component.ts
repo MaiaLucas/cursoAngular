@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { RestaurantService } from 'app/restaurants/restaurant/restaurant.service';
+
 
 @Component({
   selector: 'mt-restaurant-detail',
@@ -6,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RestaurantDetailComponent implements OnInit {
 
-  constructor() { }
+  constructor(private restaurantsService: RestaurantService) { }
 
   ngOnInit() {
+
   }
 
 }
