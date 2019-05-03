@@ -9,7 +9,7 @@ import { OrderSummaryComponent } from "./order-summary/order-summary.component";
 
 export const ROUTES: Routes = [
     {path:'', component: HomeComponent},
-    {path:'about', loadChildren: './about/about.module#AbouteModule'},
+    {path:'about', loadChildren: './about/about.module#AboutModule'},
     {path:'restaurants', component: RestaurantsComponent},
     {path:'order', component: OrderComponent},
     {path:'order-summary', component: OrderSummaryComponent},
