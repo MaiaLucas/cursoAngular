@@ -29,7 +29,7 @@ const options = {
   key: fs.readFileSync('./backend/keys/key.pem'),
 }
 
-const port = 3002
+const port = 3001
 https.createServer(options, server).listen(port, () => {
   console.log(`JSON Server is running on https://localhost:${port}`)
 })
