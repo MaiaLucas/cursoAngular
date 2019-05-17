@@ -21,7 +21,7 @@ var options = {
     cert: fs.readFileSync('./backend/keys/cert.pem'),
     key: fs.readFileSync('./backend/keys/key.pem')
 };
-var port = 3002;
+var port = 3001;
 https.createServer(options, server).listen(port, function () {
     console.log("JSON Server is running on https://localhost:" + port);
 });
